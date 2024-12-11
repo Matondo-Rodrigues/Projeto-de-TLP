@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Css/bootstrap.css">
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário do Aluno</h1>
+        <img src="Imagens/Imagem WhatsApp 2024-12-11 às 10.19.26_ad7087f1.jpg" alt=" " >
+        <p>Matondo Rodrigues.- Turma BNI</p>
+        <p>Colégio Instituto Médio Comercial de Luanda</p>
+        <p>Número 17.
+        </p>
+        <p>13 classe.</p>
+
+        
+        <form action="#" method="post">
+            <div class="form-group">
+                <div class="img">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome completo" required>
+            </div>
+        </div>
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" class="form-control" placeholder="Digite sua idade" required>
+            </div>
+            <div class="form-group">
+                <label for="curso">Curso:</label>
+                <select id="curso" name="curso" class="form-control" required>
+                    <option value="">Selecione seu curso</option>
+                    <option value="informatica">Informática de Gestão</option>
+                    <option value="contabilidade">Contabilidade e Gestão</option>
+                    <option value="comercio">Comércio</option>
+                    <option value="gestao">Gestão de Recursos Humanos</option>
+                    <option value="financas">Finanças</option>
+                </select>
+            </div>
+           
+            <div class="form-group">
+                <label for="turno">Turno:</label>
+                <select id="turno" name="turno" class="form-control" required>
+                    <option value="">Selecione seu turno</option>
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="Digite seu telefone" required>
+            </div>
+           
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Limpar</button>
+        </form>
+    </div>
+</body>
+</html>
